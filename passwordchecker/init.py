@@ -54,5 +54,6 @@ def main(args):
 
 #While running this on the terminal, after init.py, put your pwd example
 # ex: init.py examplepw
-   
-main(sys.argv[1:])
+if __name__ == "__main__":
+
+    main(sys.argv[1:])
